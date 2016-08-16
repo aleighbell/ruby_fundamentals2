@@ -6,8 +6,7 @@
     puts "Please enter temperature in F"
         F = gets
 
-          def method_temperature
-             ((F - 32) * 5/9).each
-             return new_temperature
-             
-          end
+   def new_temperature
+     puts "Here is your new temperature #{(F - 32) * 5/9}"
+   end
+end
