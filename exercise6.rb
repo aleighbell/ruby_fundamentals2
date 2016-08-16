@@ -1,2 +1,9 @@
   grocery_list = ["carrots", "apples", "oranges", "potatoes", "lemons"]
-  puts grocery_list
+
+       *carrots
+       *apples
+       *oranges
+       *potatoes
+       *lemons
+  grocery_list = "cat food" <<
+  
