@@ -6,8 +6,9 @@
     f = gets
 
   def new_temperature
-   puts "Here is your new temperature"
+    "{(f - 32) * 5/9}"
   end
-    puts "{(f - 32) * 5/9}"
-  end
+
+puts "Here is your new temperature"
+
 end
