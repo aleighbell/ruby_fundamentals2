@@ -1,14 +1,12 @@
  puts "Hello! What's your name?"
-   name = gets
-  puts "Nice to meet you, #{name}"
+  name = gets
+ puts "Nice to meet you, #{name}"
 
-  puts "Please enter temperature in F"
-    f = gets
+puts "Please enter temperature in F"
+  f = gets
 
-  def new_temperature
-    "{(f - 32) * 5/9}"
-  end
+  f = to._i
 
-puts "Here is your new temperature"
+  temperature = (f - 32) * 5/9
 
-end
+  puts "here is your #{temperature}"
