@@ -5,8 +5,4 @@
 puts "Please enter temperature in F"
   f = gets
 
-  f = to._i
-
-  temperature = (f - 32) * 5/9
-
-  puts "here is your #{temperature}"
+  puts "here is your new temperature #{(f - 32) * 5 / 9} thank you!"
